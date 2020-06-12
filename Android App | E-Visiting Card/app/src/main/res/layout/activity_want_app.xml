@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DFE3EF"
+    tools:context="com.wordpress.helpmevishal.vishalsingh.want_app">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:background="#3B5999"
+        android:id="@+id/l_want_explore">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Explore my Projects"
+            android:textAllCaps="true"
+            android:textColor="#DFE3EF"
+            android:drawableLeft="@drawable/ic_explore_white_24dp"
+            android:drawablePadding="35dp"
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/mor2"
+            android:clickable="true"/>
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="215dp"
+            android:id="@+id/expore"
+            android:layout_below="@+id/mor2"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:background="#DFE3EF"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp"
+                    android:id="@+id/l_hmva">
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:id="@+id/app_hmv"
+                        android:src="@drawable/ic_app_hmv" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="5dp">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="HelpMeVishal App"
+                            android:id="@+id/textView"
+                            android:gravity="left"
+                            android:textSize="14sp"
+                            android:layout_alignParentTop="true"
+                            android:textStyle="bold"
+                            android:layout_toRightOf="@+id/app_hmv"
+                            android:layout_toEndOf="@+id/app_hmv" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="An Android Homework App for College Students"
+                            android:id="@+id/textView3"
+                            android:textAllCaps="true"
+                            android:textSize="11sp"
+                            android:layout_marginRight="20dp"
+                            android:gravity="left"
+                            android:layout_below="@+id/textView"
+                            android:layout_toRightOf="@+id/app_hmv"
+                            android:layout_toEndOf="@+id/app_hmv" />
+                    </LinearLayout>
+
+                </LinearLayout>
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="#c0c0c0"
+                    android:id="@+id/v10"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp"
+                    android:id="@+id/l_hmvw">
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:id="@+id/app_hmw"
+                        android:src="@drawable/ic_hmw_logo"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="5dp">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="HelpMeVishal Website"
+                            android:id="@+id/textView1"
+                            android:gravity="left"
+                            android:textSize="14sp"
+                            android:layout_alignParentTop="true"
+                            android:textStyle="bold"
+                            android:layout_toRightOf="@+id/app_hmw"
+                            android:layout_toEndOf="@+id/app_hmw" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="A Wordpress Homework Website for College Students"
+                            android:id="@+id/textView2"
+                            android:textAllCaps="true"
+                            android:textSize="11sp"
+                            android:layout_marginRight="20dp"
+                            android:gravity="left"
+                            android:layout_below="@+id/textView"
+                            android:layout_toRightOf="@+id/app_hmw"
+                            android:layout_toEndOf="@+id/app_hmw" />
+                    </LinearLayout>
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:background="#c0c0c0"
+                        android:id="@+id/v2"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <ImageView
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:id="@+id/ic_vishal"
+                            android:src="@drawable/ic_hmw_logo"
+                            />
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="#c0c0c0"
+                    android:id="@+id/v1"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp"
+                    android:id="@+id/l_cry">
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:id="@+id/app_vishal"
+                        android:src="@drawable/ic_cry_logo" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="5dp">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Cryptography"
+                            android:id="@+id/textView4"
+                            android:gravity="left"
+                            android:textSize="14sp"
+                            android:layout_alignParentTop="true"
+                            android:textStyle="bold"
+                            android:layout_toRightOf="@+id/app_hmw"
+                            android:layout_toEndOf="@+id/app_hmw" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="An app demonstrating the encryption technique of message in messengers like whatsapp"
+                            android:id="@+id/textView5"
+                            android:textAllCaps="true"
+                            android:textSize="11sp"
+                            android:layout_marginRight="20dp"
+                            android:gravity="left"
+                            android:layout_below="@+id/textView"
+                            android:layout_toRightOf="@+id/app_hmw"
+                            android:layout_toEndOf="@+id/app_hmw" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="#c0c0c0"
+                    android:id="@+id/v12"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp"
+                    android:id="@+id/l_par">
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:id="@+id/app_cry"
+                        android:src="@drawable/ic_par_logo" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="5dp">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Parivartan  2K15"
+                            android:id="@+id/textView6"
+                            android:gravity="left"
+                            android:textSize="14sp"
+                            android:layout_alignParentTop="true"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="An app for registration of students for various fest events online"
+                            android:id="@+id/textView7"
+                            android:textAllCaps="true"
+                            android:textSize="11sp"
+                            android:layout_marginRight="20dp"
+                            android:gravity="left"
+                            android:layout_below="@+id/textView"
+                            android:layout_toRightOf="@+id/app_hmw"
+                            android:layout_toEndOf="@+id/app_hmw" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="#c0c0c0"
+                    android:id="@+id/v4"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp"
+                    android:id="@+id/l_visit">
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:id="@+id/app_visiting_App"
+                        android:src="@drawable/ic_vishal" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="5dp">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Visiting App"
+                            android:id="@+id/textView8"
+                            android:gravity="left"
+                            android:textSize="14sp"
+                            android:layout_alignParentTop="true"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="A visiting app a best alternate to visiting card with much more information."
+                            android:id="@+id/textView9"
+                            android:textAllCaps="true"
+                            android:textSize="11sp"
+                            android:layout_marginRight="20dp"
+                            android:gravity="left"
+                            android:layout_below="@+id/textView"
+                            android:layout_toRightOf="@+id/app_hmw"
+                            android:layout_toEndOf="@+id/app_hmw" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView5"
+            android:src="@drawable/ic_keyboard_arrow_down_white_24dp"
+            android:layout_below="@+id/expore"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/l_want_explore"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout">
+       <LinearLayout
+           android:layout_width="fill_parent"
+           android:layout_height="fill_parent"
+           android:orientation="vertical">
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Want an Android App for you ?"
+               android:textAllCaps="true"
+               android:drawableLeft="@drawable/ic_adb_black_24dp"
+               android:drawablePadding="35dp"
+               android:textSize="15sp"
+               android:layout_marginTop="20dp"
+               android:layout_marginLeft="15dp"
+               android:layout_marginRight="20dp"
+               android:id="@+id/mor3"
+               android:clickable="true"
+               android:textColor="#5e5d5d" />
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="75dp"
+               android:textAppearance="?android:attr/textAppearanceSmall"
+               android:text="Contact me to share your idea"
+               android:textStyle="bold"
+               android:id="@+id/textView10" />
+
+
+       </LinearLayout>
+
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#c0c0c0"
+            android:layout_marginTop="10dp"
+            android:id="@+id/v7"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_below="@+id/linearLayout">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="15dp"
+        android:weightSum="3">
+
+        <ImageView
+            android:layout_width="53dp"
+            android:layout_height="53dp"
+            android:id="@+id/image_call"
+            android:src="@drawable/ic_call"
+            android:layout_weight="1"
+            android:layout_gravity="left"/>
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:id="@+id/image_whatsapp"
+            android:src="@drawable/ic_whatsapp"
+            android:layout_weight="1"
+            android:layout_gravity="center"/>
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:id="@+id/image_mail"
+            android:src="@drawable/ic_mail"
+            android:layout_weight="1"
+            android:layout_gravity="right"/>
+    </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

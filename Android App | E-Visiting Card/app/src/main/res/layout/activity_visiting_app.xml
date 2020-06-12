@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wordpress.helpmevishal.vishalsingh.explore"
+    android:contextClickable="false"
+    android:focusable="false"
+    android:focusableInTouchMode="false">
+
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/app_hmw"
+        android:layout_margin="20dp"
+        android:src="@drawable/ic_vishal"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Visiting App"
+        android:id="@+id/textView"
+        android:gravity="left"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentTop="true"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/app_hmw"
+        android:layout_toEndOf="@+id/app_hmw" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="A visiting app a best alternate to visiting card with much more information."
+        android:id="@+id/textView3"
+        android:textAllCaps="true"
+        android:textSize="11sp"
+        android:layout_marginRight="20dp"
+        android:gravity="left"
+        android:layout_below="@+id/textView"
+        android:layout_toRightOf="@+id/app_hmw"
+        android:layout_toEndOf="@+id/app_hmw" />
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/horizontalScrollView"
+        android:layout_below="@+id/app_hmw"
+        android:layout_marginRight="22dp"
+        android:layout_marginLeft="22dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:src="@drawable/ic_visita1"
+                android:id="@+id/imageView" />
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:id="@+id/imageView1"
+                android:src="@drawable/ic_visita2" />
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:src="@drawable/ic_visita3"
+                android:id="@+id/imageView2" />
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:id="@+id/imageView7"
+                android:src="@drawable/ic_visita4" />
+
+
+        </LinearLayout>
+
+
+    </HorizontalScrollView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView3"
+        android:src="@drawable/ic_keyboard_arrow_right_black_24dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView4"
+        android:src="@drawable/ic_keyboard_arrow_left_black_24dp"
+        android:layout_alignTop="@+id/imageView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Share App"
+        android:layout_marginTop="10sp"
+        android:id="@+id/share_visit"
+        android:layout_below="@+id/horizontalScrollView"
+        android:layout_toRightOf="@+id/imageView4"
+        android:layout_toEndOf="@+id/imageView4"
+        android:background="#3B5999"
+        android:textColor="#ffffff" />
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Next Project"
+        android:layout_marginTop="10sp"
+        android:id="@+id/button_visita"
+        android:layout_below="@+id/horizontalScrollView"
+        android:layout_alignRight="@+id/textView3"
+        android:layout_alignEnd="@+id/textView3"
+        android:textColor="#ffffff"
+        android:background="#3B5999" />
+
+
+</RelativeLayout>
